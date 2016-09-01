@@ -3,7 +3,8 @@
 #2: qry
 #3: bowtie2/bwa/nucmer
 
-PATH=~/sw/packages/bowtie2-2.2.9/:~/sw/packages/samtools-1.3.1/:~/sw/packages/bcftools-1.3.1/:~/sw/packages/bedtools2/bin/:$PATH
+PATH=~/sw/packages/bowtie2-2.2.9/:~/sw/packages/bwa-0.7.15/bwa/:$PATH
+PATH=~/sw/packages/samtools-1.3.1/:~/sw/packages/bcftools-1.3.1/:~/sw/packages/bedtools2/bin/:$PATH
 P=8
 test -f $1.fa
 
